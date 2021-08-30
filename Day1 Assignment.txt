@@ -1,0 +1,18 @@
+Day1 Assignment
+
+1. what is interpreter and compiler?
+
+Ans:- 
+
+          Interpreter                                      Compiler
+
+1.  Translates program one statement                1. Scans the entire program and translates  
+    at a time,                                         it as a whole into machine code.
+2.  Interpreters usually take less amount           2. Compilers usually take a large amount of time 
+    of time to analyze the source code.                to analyze the source code. However, the overall 
+    However, the overall execution time                execution time is comparatively faster than interpreters.
+    is comparatively slower than compilers.         3. Generates Object Code which further requires                                             
+3.  No Object Code is generated, hence                 linking, hence requires more memory.
+    are memory efficient.
+4.  Programming languages like JavaScript,          4. Programming languages like C, C++, Java use compilers.
+    Python, Ruby use interpreters.   	
