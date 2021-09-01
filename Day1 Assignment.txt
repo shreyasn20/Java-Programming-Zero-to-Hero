@@ -16,3 +16,65 @@ Ans:-
     are memory efficient.
 4.  Programming languages like JavaScript,          4. Programming languages like C, C++, Java use compilers.
     Python, Ruby use interpreters.   	
+
+
+2.Define a class Student with following members:
+
+  int roll, String name, float marks.
+
+  input() to take input of the details
+
+  display() to all details of a student.
+
+
+  Write a program to which will store details of a student and print the details using the above class.
+
+
+Code:
+  
+import java.util.Scanner;
+class Student{
+    private
+    int Rollno;
+    String Name;
+    Float Marks;
+
+    public void  input()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the roll number:");
+        Rollno = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter the name:");
+        Name = sc.nextLine();
+        System.out.print("Enter the marks:");
+        Marks = sc.nextFloat();
+    }
+
+    public void display(){
+        System.out.println("Rollno:"+ Rollno);
+        System.out.println("Name:"+ Name);
+        System.out.println("Marks:"+ Marks);
+
+    }
+
+
+}
+public class Main {
+
+    public static void main(String[] args) {
+	
+        Student s = new Student();
+        s.input();
+        s.display();
+    }
+}
+
+
+  Output:
+  Enter the roll number:47
+  Enter the name:Shreyas Madhukar Nimbhore
+  Enter the marks:86.5
+  Rollno:47
+  Name:Shreyas Madhukar Nimbhore
+  Marks:89.07
