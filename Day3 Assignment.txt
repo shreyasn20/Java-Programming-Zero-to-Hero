@@ -20,10 +20,6 @@ class Cab{
 }
 
 public class Day3ProjectCabFeeCalculation {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        int cabDistance;
          
@@ -52,3 +48,19 @@ public class Day3ProjectCabFeeCalculation {
     }
     
   }
+  
+*************************************************************************
+output:
+Case1:If Cab Distance is less than 5 km
+
+  Enter the cab distance from user (km):4
+  Enter the distance from user (km):2
+  Total Fare: Rs 50
+  
+Case2:If Cab Distance is more than 5 km
+
+  Enter the cab distance from user (km):8
+  Enter the distance from user (km):10
+  Total Fare: Rs 160
+  
+  
